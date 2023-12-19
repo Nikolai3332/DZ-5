@@ -1,13 +1,13 @@
 string name = "Иванов";
-        string surname = "Иван";
+string surname = "Иван";
 
-        Console.WriteLine("Ваше имя: " + name);
-        Console.WriteLine("Ваша фамилия: " + surname);
-        Console.WriteLine("Данные перепутаны!");
+Console.WriteLine("Ваше имя: " + name);
+Console.WriteLine("Ваша фамилия: " + surname);
+Console.WriteLine("Данные перепутаны!");
 
-        (name, surname) = (surname, name);
+(name, surname) = (surname, name);
 
-        Console.WriteLine("Ваше имя: " + name);
-        Console.WriteLine("Ваша фамилия: " + surname);
-        Console.WriteLine("Данные верны!");
-        Console.ReadKey();
+Console.WriteLine("Ваше имя: " + name);
+Console.WriteLine("Ваша фамилия: " + surname);
+Console.WriteLine("Данные верны!");
+Console.ReadKey();
